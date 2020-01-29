@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
+    <link rel="icon" type="image/png" href="img/z.png" />
+
+    <script type="text/javascript">
+        function startTime()
+        {
+        var today=new Date();
+        var h=today.getHours();
+        var m=today.getMinutes();
+        var s=today.getSeconds();
+
+        m=checkTime(m);
+        s=checkTime(s);
+        document.getElementById('hora').innerHTML=h+":"+m+":"+s;
+        t=setTimeout('startTime()',500);
+        }
+        function checkTime(i)
+        {
+        if (i<10)
+        {
+        i="0" + i;
+        }
+        return i;
+        }
+    </script>
+
+    <title>Página Inicial</title>
+</head>
+<body onload="startTime()">
+<header>
+    <div class="header">
+        <div class="header-right">
+          <a href="social.html">Social</a>
+          <a href="watch.html">Assistir</a>
+          <a href="pirate.html">Download</a>
+          <a href="programacao.html">Programação</a>
+          <a href="shop.html">Compras</a>
+          <a href="https://www.spotify.com/">Musica</a>
+          <a href="jogos.html">Jogos</a>
+        </div>
+</header>
+
+<main>
+    <div class="background">
+        <img src="img/back.jpg" width="100%">
+        <div class="texto">Olá, Johnzão!</div><br>
+        <div id="hora"></div>
+        <div id='to-do'><p>Proximos compromissos</p>
+            <input id="txt" placeholder="Flexxo 28/02 18:30"></input>
+            <input id="datetime" placeholder=""></input><br>
+            <a href="cronograma.html" class="cronograma">Ver Todos</a>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="footer"></div>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+   }
+  
+   /*HEADER*/
+  
+   .header {   
+    position: relative;    
+    overflow: hidden;
+    background-color: transparent;
+    padding: 2vh 1vh;
+    background-color: rgb(87, 87, 87);
+  }
+
+  
+  /* MAIN */
+  
+  .background {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .texto {
+    text-decoration: none;
+    font-size: 15vh;
+    position: absolute;
+    top: 55vh;
+    left: 97vh;
+    transform: translate(-18vh, -50vh);
+  }
+  
+  .texto a {
+    text-decoration: none;
+    color: #ddd;
+  }
+
+  .txt {
+    font-size: 10vh;
+    margin-left: 5vh;
+    color: #ddd;
+  }
+
+  .eventos {
+    width: 85vh;
+    height: 60vh;
+    background-color: rgb(167, 167, 167);
+    margin-left: -250vh;
+    margin-top: -30vh;
+    font-size: 12vh;
+    position: absolute;
+    top: 48vh;
+    left: 177vh;
+    border: solid #000 .4vh;
+    border-radius: 3vh;
+    overflow: hidden;
+  }
+
+  #eventos {
+    border-collapse: collapse;
+    width: 105%;
+    margin-left: -1vh;
+    font-size: 4vh;
+    color: black;
+    text-align: left;
+  }
+  
+  #eventos td, #eventos th {
+    border: .1vh solid #ddd;
+    padding: .8vh;
+  }
+  
+  #eventos tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #eventos tr:hover {background-color: #ddd;}
+  
+  #eventos th {
+    padding-top: 1.2vh;
+    padding-bottom: 1.2vh;
+    background-color: rgb(114, 201, 117);
+    color: white;
+    text-align: center;
+  }
+
+
+  .estudos {
+    width: 85vh;
+    height: 60vh;
+    background-color: rgb(167, 167, 167);
+    margin-left: -145vh;
+    margin-top: -30vh;
+    font-size: 12vh;
+    position: absolute;
+    top: 48vh;
+    left: 177vh;
+    border: solid #000 .4vh;
+    border-radius: 3vh;
+    overflow: hidden;
+  }
+
+  #estudos {
+    border-collapse: collapse;
+    width: 105%;
+    margin-left: -1vh;
+    font-size: 4vh;
+    color: black;
+    text-align: left;
+  }
+  
+  #estudos td, #estudos th {
+    border: .1vh solid #ddd;
+    padding: .8vh;
+  }
+  
+  #estudos tr:nth-child(even){
+    background-color: #f2f2f2;
+  }
+  
+  #estudos tr:hover {
+    background-color: #ddd;
+  }
+  
+  #estudos th {
+    padding-top: 1.2vh;
+    padding-bottom: 1.2vh;
+    background-color: rgb(114, 201, 117);
+    color: white;
+    text-align: center;
+  }
+
+  .back {
+    width: 10vh;
+    height: 10vh;
+    border: solid .1vh black;
+    border-radius: 5vh;
+    background-color: rgb(87, 87, 87);
+    margin-top: -10.5vh;
+    margin-left: -65vh;
+  }
+  
+  .back img {
+    max-width: 8vh;
+    min-width: 8vh;
+    height: auto;
+
+  }
+
+    /*FOOTER*/
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4vh;
+    background-color:rgb(87, 87, 87)    ;
+    color: white;
+    text-align: center;
+  }
+  

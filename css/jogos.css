@@ -1,0 +1,118 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+ }
+
+ /*HEADER*/
+
+ .header {   
+  position: relative;    
+  overflow: hidden;
+  background-color: transparent;
+  padding: 2vh 1vh;
+  background-color: rgb(87, 87, 87);
+}
+
+/* MAIN */
+
+.background {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.texto {
+  font-size: 15vh;
+  position: absolute;
+  top: 55vh;
+  left: 97vh;
+  transform: translate(-18vh, -50vh);
+}
+
+.texto a {
+  text-decoration: none;
+  color: #ddd;
+}
+
+.jogo1 {
+  position: absolute;
+  background-color: rgb(87, 87, 87);
+  width: 50vh;
+  height: 50vh;
+  border: solid 1vh #000;
+  border-radius: 99vh;
+  margin-left: -65vh;
+}
+
+.jogo2 {
+  position: absolute;
+  background-color: rgb(87, 87, 87);
+  width: 50vh;
+  height: 50vh;
+  border: solid 1vh #000;
+  border-radius: 99vh;
+}
+
+.jogo3 {
+  position: absolute;
+  background-color: rgb(87, 87, 87);
+  width: 50vh;
+  height: 50vh;
+  border: solid 1vh #000;
+  border-radius: 99vh;
+  margin-left: 65vh;
+}
+.jogo3 img {
+  top: 50vh;
+}
+
+.jogo1 img{
+  margin-top: 8vh;
+  min-width: 35vh;
+  max-width: 35vh;
+  height: auto;
+}
+
+.jogo2 img{
+  margin-top: 6vh;
+  min-width: 35vh;
+  max-width: 35vh;
+  height: auto;
+}
+
+.jogo3 img{
+  margin-top: 5vh;
+  min-width: 40vh;
+  max-width: 40vh;
+  height: auto;  
+}
+
+.jogo1:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.jogo2:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.jogo3:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+  /*FOOTER*/
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4vh;
+  background-color:rgb(87, 87, 87)    ;
+  color: white;
+  text-align: center;
+}
